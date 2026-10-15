@@ -22,3 +22,5 @@ GitHub Actions를 이용해 DORA 4대 지표를 수집합니다.
 ### 대시보드 시안
 
 ![DORA Dashboard](dashboard.svg)
+
+![DORA Dashboard](dora-dashboard.png)
