@@ -1,6 +1,6 @@
 # Git/GitHub Practice
 
-AI 오픈소스 소프트웨어 수업의 GitHub 실습 저장소입니다.
+oss GitHub 실습 저장소입니다.
 
 ## 학습 목표
 - GitHub 저장소 생성 및 관리
