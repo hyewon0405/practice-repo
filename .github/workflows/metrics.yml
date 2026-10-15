@@ -1,0 +1,44 @@
+name: DORA Metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'  # Every Monday, 00:00 UTC
+  deployment_status:
+  pull_request:
+    types: [closed]
+  issues:
+    types: [closed]
+
+permissions:
+  contents: read
+  deployments: read
+  issues: read
+  pull-requests: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Collect metrics and generate dashboard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/collect_metrics.py
+      - name: Upload JSON, weekly report, dashboard SVG
+        uses: actions/upload-artifact@v4
+        with:
+          name: dora-report-${{ github.run_number }}
+          path: |
+            output/metrics.json
+            output/weekly-report.md
+            output/dashboard.svg
+          retention-days: 30
