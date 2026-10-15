@@ -7,3 +7,4 @@ oss GitHub 실습 저장소입니다.
 - README.md 작성
 - Commit을 통한 변경 사항 기록
 - Git과 GitHub의 기본 사용법 학습
+Git push practice
