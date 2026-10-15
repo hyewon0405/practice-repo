@@ -9,3 +9,16 @@ oss GitHub 실습 저장소입니다.
 - Git과 GitHub의 기본 사용법 학습
 Git push practice
 Git Bash pust test
+
+## DORA Metrics Dashboard
+
+GitHub Actions를 이용해 DORA 4대 지표를 수집합니다.
+
+- Lead Time
+- Deployment Frequency
+- MTTR
+- Change Failure Rate
+
+### 대시보드 시안
+
+![DORA Dashboard](dashboard.svg)
