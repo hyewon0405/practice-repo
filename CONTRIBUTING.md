@@ -28,3 +28,10 @@ type: description
 ## Review Rules
 - [MUST]: 반드시 수정해야 하는 사항
 - [SHOULD]: 개선을 권장하는 사항
+
+## PR Review Guidelines
+
+- [MUST]: 반드시 수정해야 하는 문제
+- [SHOULD]: 개선하면 좋은 사항
+
+모든 PR은 리뷰를 통해 변경 사항을 검토한다.
