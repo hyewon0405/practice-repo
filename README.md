@@ -24,3 +24,8 @@ GitHub Actions를 이용해 DORA 4대 지표를 수집합니다.
 ![DORA Dashboard](dashboard.svg)
 
 ![DORA Dashboard](pff.jpg)
+
+## Contribution Guide
+
+프로젝트의 브랜치 전략, 커밋 규칙, PR 리뷰 방법은
+[CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요.
