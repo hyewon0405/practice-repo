@@ -24,3 +24,21 @@ GitHub Actions를 이용해 DORA 4대 지표를 수집합니다.
 ![DORA Dashboard](dashboard.svg)
 
 ![DORA Dashboard](pff.jpg)
+
+
+## Open Source
+
+본 프로젝트는 오픈소스 협업 학습을 위한 저장소입니다.
+
+### Project Documents
+
+- [License](LICENSE)
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+
+### Collaboration Rules
+
+- Feature 브랜치 전략 사용
+- Conventional Commits 적용
+- Pull Request 기반 협업
+- [MUST], [SHOULD] 태그를 활용한 리뷰
